@@ -7,11 +7,11 @@
 }
 .swatches {
     display: inline-block;
+    margin: 2px;
 }
 .colorDisplay {
-    background-color:aquamarine;
     height:100px;
-    width:100px;
+    
 }
 
 .color1 {
@@ -43,6 +43,11 @@ h3 {
     margin: 5px 0px;
 }
 
+p {
+    text-align: left;
+}
+
 .swatches li {
     list-style: none;
+    text-align: left;
 }
