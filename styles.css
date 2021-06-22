@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+    border:1px red solid;
+}
+.swatches {
+    display: inline-block;
+}
+.colorDisplay {
+    background-color:aquamarine;
+    height:100px;
+    width:100px;
+}
+
+.color1 {
+    background-color:yellow;
+}
+
+.color2 {
+    background-color:peachpuff;
+}
+
+.color3 {
+    background-color:honeydew;
+}
+
+.color4 {
+    background-color:plum;
+}
+
+
+h1 {
+    margin: 20px 0px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+h3 {
+    margin: 5px 0px;
+}
+
+.swatches li {
+    list-style: none;
+}
