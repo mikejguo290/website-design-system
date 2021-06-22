@@ -9,9 +9,10 @@
     display: inline-block;
     margin: 2px;
 }
+
 .colorDisplay {
     height:100px;
-    
+    font-family:'Roboto Mono';
 }
 
 .color1 {
@@ -33,14 +34,17 @@
 
 h1 {
     margin: 20px 0px;
+    font-family:Merriweather;
 }
 
 h2 {
     margin: 10px 0px;
+    font-family:'PT Sans';
 }
 
 h3 {
     margin: 5px 0px;
+    font-family:'PT Sans';
 }
 
 p {
@@ -50,4 +54,41 @@ p {
 .swatches li {
     list-style: none;
     text-align: left;
+}
+
+.fontDisplay p:nth-of-type(2){
+    font-style: italic;
+}
+
+.fontDisplay p:nth-of-type(3){
+    font-weight: 700;
+}
+
+.fonts div:nth-child(1){
+    font-family:Merriweather;
+}
+
+.fonts div:nth-child(2){
+    font-family:'PT Sans';
+}
+
+.fonts div:nth-child(3){
+    font-family:'Roboto Mono';
+}
+
+/* create classes first, second and third only to use them as selectors in chains. descriptive, doesnt generate css rules 
+easier than using lots of nth-of-type which can be ambiguous. although might be simpler to do inline html.
+fonts div:nth-child(n) isn't specific enough to override p {}, so I can't define font-family in p and am having to define it in every context p exists. 
+this would lead to a lot of extra code! might be easier to specify .fontDisplay.first p { font-family:}
+*/
+.fontDisplay.first h3 {
+    font-family:Merriweather;
+}
+
+.fontDisplay.second h3 {
+    font-family:'PT Sans';
+}
+
+.fontDisplay.third h3 {
+    font-family:'Roboto Mono';
 }
