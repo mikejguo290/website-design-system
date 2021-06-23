@@ -1,5 +1,4 @@
 * {
-    text-align: left;
     box-sizing:border-box;
     padding:0px;
     margin:0px;
@@ -12,6 +11,8 @@
 .colorDisplay {
     height:100px;
     font-family:'Roboto Mono';
+    padding: 0px 10px;
+    text-align: center;
 }
 
 .color1 {
