@@ -135,6 +135,11 @@ this would lead to a lot of extra code! might be easier to specify .fontDisplay.
     text-decoration: underline;
 }
 
+.textStyles .swatches {
+    width: 20%;
+    min-width: 50px;
+}
+
 section {
     border:1px gray solid;
     padding: 10px 10px;
