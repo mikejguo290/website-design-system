@@ -52,6 +52,9 @@ p {
     font-family: 'Roboto Mono';
 }
 
+li {
+    font-family: 'Roboto Mono';
+}
 .swatches li {
     list-style: none;
     text-align: left;
