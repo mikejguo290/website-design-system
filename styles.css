@@ -8,6 +8,7 @@
     display: inline-block;
 }
 
+/* easier to add padding and then center text than having left aligned text and dealing with adding horo padding to all headings and all swatches to stay aligned.*/
 .colorDisplay {
     height:100px;
     font-family:'Roboto Mono';
@@ -57,6 +58,7 @@ p {
 li {
     font-family: 'Roboto Mono';
 }
+
 .swatches li {
     list-style: none;
     text-align: left;
