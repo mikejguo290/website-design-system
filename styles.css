@@ -38,6 +38,12 @@ h1 {
     margin: 20px 0px;
 }
 
+/* direct descendants would solve a few things! except you can't wantonly change html. */
+body > h1 {
+    padding : 0px 40px;
+}    
+
+
 h2 {
     margin: 10px 0px;
     font-family:'PT Sans';
