@@ -14,6 +14,8 @@
     font-family:'Roboto Mono';
     padding: 0px 10px;
     text-align: center;
+    width: 20%;
+    min-width: 50px;
 }
 
 .color1 {
