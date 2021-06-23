@@ -7,7 +7,6 @@
 }
 .swatches {
     display: inline-block;
-    margin: 2px;
 }
 
 .colorDisplay {
@@ -33,30 +32,24 @@
 
 
 h1 {
-    margin: 20px 0px;
     font-family:Merriweather;
-    padding: 0px 5px;
+    margin: 20px 0px;
 }
-
-
 
 h2 {
     margin: 10px 0px;
     font-family:'PT Sans';
-    padding: 0px 5px;
 }
 
 h3 {
     margin: 5px 0px;
     font-family:'PT Sans';
-    padding: 0px 5px;
 
 }
 
 p {
     text-align: left;
     font-family: 'Roboto Mono';
-    padding: 0px 5px;
     margin: 10px 0px
 }
 
@@ -114,20 +107,24 @@ this would lead to a lot of extra code! might be easier to specify .fontDisplay.
 
 .fontDisplay.first h3 {
     font-family:Merriweather;
+    text-decoration: underline;
 }
 
 .fontDisplay.second h3 {
     font-family:'PT Sans';
+    text-decoration: underline;
 }
 
 .fontDisplay.third h3 {
     font-family:'Roboto Mono';
+    text-decoration: underline;
 }
 
 section {
     border:1px gray solid;
-    padding: 10px 0px;
+    padding: 10px 10px;
     width: 85%;
     position: relative;
     left: 40px;
+
 }
